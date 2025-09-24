@@ -207,6 +207,18 @@ The API includes a demo mode that works without model files:
 - Automatically activates when model files are missing
 - Perfect for testing the API structure
 
+  ## 📓 Complete Implementation Notebook
+
+**[🚀 View Full Implementation in Google Colab](https://colab.research.google.com/drive/1ihtsJNZSAZDRTrJWw15tl9ymBNrFdSvx?usp=sharing)**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ihtsJNZSAZDRTrJWw15tl9ymBNrFdSvx?usp=sharing)
+
+*Click the link above to see the complete ML pipeline implementation with all outputs, visualizations, and step-by-step execution.*
+
+## ⚠️ Important Note
+
+**If you encounter any errors or issues with the files in this repository, please use the Google Colab notebook linked above.** The Colab notebook contains the complete, working implementation with all dependencies pre-installed and is guaranteed to run without any setup issues.
+
 ## Quick Start
 
 ```bash
