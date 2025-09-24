@@ -176,6 +176,51 @@ For production deployment, consider:
 - Model monitoring and drift detection
 - A/B testing framework for model updates
 
+
+
+
+
+
+
+# SvaraAI Reply Classifier
+
+## Model Files Setup
+
+### Option 1: Use Pre-trained Models
+If you have the model files:
+1. Place `logistic_regression_model.pkl` and `tfidf_vectorizer.pkl` in the project directory
+2. Run the API normally
+
+### Option 2: Train Models from Notebook
+If model files are missing:
+1. Open the provided Jupyter notebook
+2. Run all cells in order, especially:
+   - Step 1: Data Loading
+   - Step 2: Data Preprocessing  
+   - Step 3: Baseline Model Training
+3. The models will be automatically saved to your Google Drive
+4. Download the `.pkl` files and place them in the project directory
+
+### Option 3: Demo Mode
+The API includes a demo mode that works without model files:
+- Uses rule-based predictions for demonstration
+- Automatically activates when model files are missing
+- Perfect for testing the API structure
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone <your-repo-url>
+cd svaraai-classifier
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the API (works with or without model files)
+python production_api.py
+
+
 ## Troubleshooting
 
 **Common Issues:**
@@ -193,11 +238,7 @@ For production deployment, consider:
 
 This project is created for the SvaraAI AI/ML Engineer Internship Assignment.
 
----
-
 **Author**: Mohammad Sameer
-
-
 
 **Date**: 24 September 2025  
 **Contact**: 6304009764
